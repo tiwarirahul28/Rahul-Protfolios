@@ -143,7 +143,7 @@ export default function About() {
                     <div className='about__info__item'>
                         <h1 className='about__info__heading'>EXPERIENCES</h1>
                         <AboutInfoItem
-                            title='2021 - Present'
+                            title='2021 -'
                             items={['Software Tester at Lead School']}
                         />
                     </div>
