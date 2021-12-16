@@ -4,8 +4,26 @@ import CarDekho from '../images/cardekho.png';
 import EasyToMake from '../images/easytomake.png';
 import resort from '../images/resort-1.png'
 import Tesla from '../images/tesla-clone.png'
+import EduFord from '../images/edufordcollege.png'
+import LanguageLab from '../images/languagelab.png'
+import Marvelsh from '../images/marvelsh.png'
+// import Covide from '../images/covide.png'
+import Fithit from '../images/fithit.png'
+
 
 const projects = [
+    {
+        id: uuidv4(),
+        name: "Language Lab",
+        desc: "“If You Want To Teach People A New Way Of Thinking, Don’t Bother Trying To Teach Them. Instead, Give Them A Tool, The Use Of Which Will Lead To New Ways Of Thinking.”",
+        img: LanguageLab,
+    },
+    {
+        id: uuidv4(),
+        name: "Fit Hit",
+        desc: "Getting Yourself To The Gym May Feel Much More Overwhelming Than Actually Working Towards Your Goal. To Lose Weight Or Increase Fitness Levels, It's Time To Try Something Different. GYMGUYZ Can Help You Achieve The Results You Want.",
+        img: Fithit,
+    },
     {
         id: uuidv4(),
         name: "Resort",
@@ -36,6 +54,24 @@ const projects = [
         desc: "easytomake.com features the largest collection of professionally-tested recipes online from food experts at the magazines and cookbooks you love and trust--including Cooking Light.",
         img: EasyToMake,
     },
+    {
+        id: uuidv4(),
+        name: "Edu Ford College",
+        desc: "EduFord Website is a dummy university website",
+        img: EduFord,
+    },
+    {
+        id: uuidv4(),
+        name: "Marvelsh",
+        desc: "Marvelsh is a website where you will find your favourite marvel superhero and some infomation about superhero.",
+        img: Marvelsh,
+    },
+    // {
+    //     id: uuidv4(),
+    //     name: "Covide-19",
+    //     desc: "Covide-19 Dummy website ",
+    //     img: Covide,
+    // },
 ];
 
 export default projects;

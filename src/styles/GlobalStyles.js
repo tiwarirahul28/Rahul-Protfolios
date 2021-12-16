@@ -7,16 +7,16 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   :root{
-    --dark-bg: #1C2541;
-    --gray-1: #4FB2D4;
-    --deep-dark: #0B132B;
-    --gray-2: #5BC0BE;
-    --white : white;
-    --black: #6FFFE9;
+    --dark-bg: #1F2833;
+    --gray-1: #EDF5E1;
+    --deep-dark: #0B0C10;
+    --gray-2: #66FCF1;
+    --white : #45A29E;
+    --black: #1F2833;
   }
   html{
     font-size: 10px;
-    font-family: 'Roboto Mono';
+    ${'' /* font-family: 'Roboto Mono'; */}
     background-color: var(--dark-bg);
   }
   ul,li{
@@ -34,7 +34,7 @@ const GlobalStyles = createGlobalStyle`
     outline: none
   }
   .container {
-    max-width: 1200px;
+    max-width: 1300px;
     width: 90%;
     margin: 0 auto;
   }
