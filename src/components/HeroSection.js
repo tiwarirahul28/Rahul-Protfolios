@@ -170,7 +170,7 @@ export default function HeroSection() {
                     </div>
                     <div className='hero__info'>
                         <PText>
-                            I am web designer and developer.
+                            I am Front-End developer.
                             I love to design and make new web experiences for the
                             people.
                         </PText>

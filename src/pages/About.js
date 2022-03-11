@@ -129,11 +129,11 @@ export default function About() {
                         <h1 className='about__info__heading'>My Skill</h1>
                         <AboutInfoItem
                             title='FrontEnd'
-                            items={['HTML CSS JavaScript React']}
+                            items={['HTML, CSS, JavaScript, React Js']}
                         />
                         <AboutInfoItem
                             title='BackEnd'
-                            items={['Node']}
+                            items={['Node JS']}
                         />
                         {/* <AboutInfoItem
                             title='University'

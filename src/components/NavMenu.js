@@ -17,10 +17,10 @@ const NavStyles = styled.div`
         margin: 0 auto;
         width: 90%;
         text-align: center;
-        li {
-        display: inline-block;
-        border-radius: 8px;
-        transition: 0.3s ease background-color;
+          li {
+            display: inline-block;
+            border-radius: 8px;
+            transition: 0.3s ease background-color;
             &:hover {
                 background-color: var(--deep-dark);
             }
@@ -101,10 +101,10 @@ export default function NavMenu() {
     return (
         <NavStyles>
             <div className='mobile-menu-icon'
-            onClick={() => setShowNav(!showNav)}
-            role="button"
-            onKeyDown={() => setShowNav(!showNav)}
-            tabIndex={0}
+                onClick={() => setShowNav(!showNav)}
+                role="button"
+                onKeyDown={() => setShowNav(!showNav)}
+                tabIndex={0}
             >
                 <MdMenu/>
             </div>

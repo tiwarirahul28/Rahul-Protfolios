@@ -71,7 +71,7 @@ export default function Footer() {
                 <div className='footer__col1'>
                     <h1 className='footer__col1__title'>Rahul Tiwari</h1>
                     <PText>
-                        A web designer and developer from Maharashtra, India.
+                        A Front-End developer from Maharashtra, India.
                         I always make websites that have unique designs and also has a good
                         performance rate.
                     </PText>
@@ -108,7 +108,7 @@ export default function Footer() {
                         heading="Contact Info"
                         links={[
                         {
-                            title: '+123-456-789',
+                            title: '+91-9324272772',
                             path: 'tel:++123-456-789',
                         },
                         {

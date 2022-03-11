@@ -86,7 +86,7 @@ export default function AboutSection() {
                         heading='About Me'
                     />
                     <PText className="para">
-                        I am a website designer and developer from Maharashtra,
+                        I am a Front-End developer from Maharashtra,
                         India. I create professional websites. I love art and always
                         try to show unique views to the audience through my design.
                     </PText>
