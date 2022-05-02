@@ -86,7 +86,7 @@ export default function About() {
                         <h2 className='about__heading'>A Front-End Web Developer</h2>
                         <div className='about__info'>
                             <PText>
-                                I am from Maharashtra, India. A place of beauty and
+                                I am from India. A place of beauty and
                                 nature. Since my childhood, i love art and design. I always
                                 try to design stuff with my unique point of view. I also love
                                 to create things that can be usefull to others.
@@ -131,10 +131,10 @@ export default function About() {
                             title='FrontEnd'
                             items={['HTML, CSS, JavaScript, React Js']}
                         />
-                        <AboutInfoItem
+                        {/* <AboutInfoItem
                             title='BackEnd'
                             items={['Node JS']}
-                        />
+                        /> */}
                         {/* <AboutInfoItem
                             title='University'
                             items={["Mumbai University, Maharashtra"]}
