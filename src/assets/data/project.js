@@ -7,8 +7,14 @@ import Tesla from '../images/tesla-clone.png'
 import EduFord from '../images/edufordcollege.png'
 import LanguageLab from '../images/languagelab.png'
 import Marvelsh from '../images/marvelsh.png'
-// import Covide from '../images/covide.png'
+import futuretech from '../images/the-future-tech.png'
 import Fithit from '../images/fithit.png'
+import clone from '../images/clone-codepen.png'
+import movieflick from '../images/movieflick.png'
+import portfolio from '../images/portfolio-website.png'
+import sack from '../images/sack.png'
+import skill from '../images/skill-learn.png'
+
 
 
 const projects = [
@@ -65,6 +71,42 @@ const projects = [
         name: "Marvelsh",
         desc: "Marvelsh is a website where you will find your favourite marvel superhero and some infomation about superhero.",
         img: Marvelsh,
+    },
+    {
+        id: uuidv4(),
+        name: "The Future Tech",
+        desc: "The Future Tech is a tech fest website held in Khar Education Society's College of Commerce and Economics, Mumbai.",
+        img: futuretech,
+    },
+    {
+        id: uuidv4(),
+        name: "Codepen Clone",
+        desc: "Codepen Clone",
+        img: clone,
+    },
+    {
+        id: uuidv4(),
+        name: "Movie Flick",
+        desc: "Movie Flick is a website where you can find your favourite movie and some infomation about movie.",
+        img: movieflick,
+    },
+    {
+        id: uuidv4(),
+        name: "Protfolio Website",
+        desc: "This is my portfolio website",
+        img: portfolio,
+    },
+    {
+        id: uuidv4(),
+        name: "Sack e-commerce website",
+        desc: "Sack e-commerce website",
+        img: sack,
+    },
+    {
+        id: uuidv4(),
+        name: "Skill Learn",
+        desc: "Skill Learn is a website where you can learn new skills",
+        img: skill,
     },
     // {
     //     id: uuidv4(),

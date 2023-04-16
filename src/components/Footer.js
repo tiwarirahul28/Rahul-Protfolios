@@ -145,7 +145,7 @@ export default function Footer() {
             <div className="copyright">
                 <div className="container">
                 <PText>
-                    © 2021 - Rahul Tiwari | Designed By{' '}
+                    © 2023 - Rahul Tiwari | Designed By{' '}
                     <a target="_blank" rel="noreferrer" href="https://github.com/TheRahulTiwari28">
                     Rahul Tiwari
                     </a>{' '}

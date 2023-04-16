@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from './Button';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
-import rahul from '../assets/images/rahul.jpeg'
+import Avatar from '../assets/images/avatar.jpg'
 
 const AboutSectionStyles = styled.div`
     padding: 100px 0;
@@ -96,7 +96,7 @@ export default function AboutSection() {
                     </div>
                 </div>
                 <div className='aboutsection__right'>
-                    <img src={rahul} alt="images"/>
+                    <img src={Avatar} alt="images"/>
                 </div>
             </div>
         </AboutSectionStyles>

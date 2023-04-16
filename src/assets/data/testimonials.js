@@ -20,6 +20,7 @@ const testimonials = [
       // org: 'Software Developer',
       desc: 'Really hard-working person. Deliver the work as promised. Planning to work more with this person.',
     },
+    
   ];
   export default testimonials;
   

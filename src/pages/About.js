@@ -4,7 +4,7 @@ import PText from '../components/PText';
 import Button from '../components/Button';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
-import rahul from '../assets/images/rahul.jpeg'
+import Avatar from '../assets/images/avatar.jpg'
 
 const AboutPageStyles = styled.div`
     padding: 200px 0 100px 0;
@@ -106,7 +106,7 @@ export default function About() {
                         <Button btnText='DownLoad CV' btnLink='#'/>
                     </div>
                     <div className='right'>
-                        <img src={rahul} alt="me"/>
+                        <img src={Avatar} alt="me"/>
                     </div>
                 </div>
                 <div className='about__info__items'>
@@ -131,10 +131,10 @@ export default function About() {
                             title='FrontEnd'
                             items={['HTML, CSS, JavaScript, React Js']}
                         />
-                        {/* <AboutInfoItem
+                        <AboutInfoItem
                             title='BackEnd'
-                            items={['Node JS']}
-                        /> */}
+                            items={['Node JS,  Express Js, MongoDB' ]}
+                        />
                         {/* <AboutInfoItem
                             title='University'
                             items={["Mumbai University, Maharashtra"]}
@@ -143,7 +143,11 @@ export default function About() {
                     <div className='about__info__item'>
                         <h1 className='about__info__heading'>EXPERIENCES</h1>
                         <AboutInfoItem
-                            title='2021 -'
+                            title='2021 - '
+                            items={['Front-End Web Developer at TunicaLabs Media Pvt. Ltd.']}
+                        />
+                        <AboutInfoItem
+                            title='2021 - 2022'
                             items={['Software Tester at Lead School']}
                         />
                     </div>
